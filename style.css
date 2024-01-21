@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+    color: rgb(235, 4, 235);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+body {
+    color: rgb(87, 0, 107);
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/5120x2880/1901/Purple-fabric-texture_5120x2880.jpg);
+    background-repeat: no-repeat;
+    background-size: 4000px;
+    max-width: 450px;
+    width: 98vw;
+    margin: auto;
+    text-align: center;
+}
+
+table { 
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding-inline: 2px;
+    font-size: 0.9em;
+    
+}
+
+.ser, .rep, .rest {
+    width: auto;
+
+    
+}
+.ex {
+    width: 98vw;
+}
+button {
+    max-width: 450px;
+    margin: 5px auto auto auto;
+    font-weight: bold;
+    width: 98vw;
+    color: rgb(127, 12, 150);
+    background-color: rgb(248, 195, 255);
+    border: 1px solid rgb(35, 0, 43);
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+       
+}
+button:hover {
+    color: rgb(167, 167, 167)ed;
+    background-color: rgb(255, 255, 255);
+    
+}
+a {
+    color: rgb(87, 0, 107);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+p {
+    padding-top: 10px;
+}
+
+
+#treinoa {
+    width: auto;
+    height: 0;
+    background-color: rgb(248, 195, 255);
+    transition: height .5s ease;
+
+}
+#treinoa.fade {
+    
+    height: 11.3em;
+    
+}
+#treinob {
+    width: auto;
+    height: 0;
+    background-color: rgb(248, 195, 255);
+    transition: height .5s ease;
+
+}
+#treinob.fade {
+    
+    height: 13.6em;
+    
+}
+#treinoc {
+    width: auto;
+    height: 0;
+    background-color: rgb(248, 195, 255);
+    transition: height .5s ease;
+
+}
+#treinoc.fade {
+    
+    height: 14.7em;
+    
+}
+div {
+    overflow: hidden;
+}
+
+p {
+    font-size: 1.3em;
+}
