@@ -13,7 +13,7 @@ h1 {
 
 body {
     color: rgb(87, 0, 107);
-    background-image: url(https://s2.best-wallpaper.net/wallpaper/5120x2880/1901/Purple-fabric-texture_5120x2880.jpg);
+    background-image: url("https://s2.best-wallpaper.net/wallpaper/5120x2880/1901/Purple-fabric-texture_5120x2880.jpg");
     background-repeat: no-repeat;
     background-size: 4000px;
     max-width: 450px;
@@ -105,7 +105,7 @@ p {
 }
 #treinoc.fade {
     
-    height: 14.7em;
+    height: 16.8em;
     
 }
 div {
